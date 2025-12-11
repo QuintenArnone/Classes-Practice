@@ -18,9 +18,6 @@ public class Main {
         System.out.print("Later, " + p1.getName() + " celebrates a birthday and is now " + p1.getAge() +
                 " years old. ");
 
-        System.out.print("By the end of the day, " + p1.getName() + " is doing well with an age of " + p1.getAge() +
-                " and a hunger level of " + p1.getHunger() + ". ");
-
         System.out.print("There is also a " + p2.getSpecies().toLowerCase() + " named " + p2.getName() +
                 " who is " + p2.getAge() + " years old with a hunger level of " + p2.getHunger() + ". ");
     }
