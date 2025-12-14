@@ -46,4 +46,8 @@ public class Pet {
     public String toString() {
         return "Pet{name='" + name + "', species='" + species + "', age=" + age + ", hunger=" + hunger + "}";
     }
+    public String getSound() {
+        return "Some sound";
+    }
+    
 }
